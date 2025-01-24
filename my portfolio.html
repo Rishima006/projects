@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: burlywood;
+        }
+
+        header {
+            background: #292934;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background: #555;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #777;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #292934;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio.</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <img src="download.jfif" alt="photo">
+        <div>
+            <h2>About Me</h2>
+            <p>Hello! I am Mehul Rai, a passionate developer with skills in front-end and back-end development.
+                I love creating innovative and user-friendly web applications. I have completed many projects, few of which you can go and read about below. 
+                 Also, you can read about the skills I acquire by clicking on the 'skills' link provided above and contact me as well to no more about me via the 'contact' link.
+                  </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A fully responsive and modern personal portfolio website designed to showcase my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Task Manager App</h3>
+                <p>A web-based task manager application that allows users to add, edit, and organize tasks. Developed using React and integrated with a Node.js backend.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: E-commerce Platform</h3>
+                <p>An e-commerce platform for small businesses, featuring user authentication, product listings, and a secure checkout system. Built using Django and SQLite.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p> 2025. Mehul Rai. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
